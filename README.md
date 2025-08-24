@@ -24,7 +24,7 @@ A2A 구조를 통해 에이전트 간 협업을 가능하게 하여
 
 ---
 
-##A2A
+## A2A
 ![A2A](img/A2A.png)
 
 
@@ -98,7 +98,7 @@ A2A 구조를 통해 에이전트 간 협업을 가능하게 하여
 
 ---
 
-## 📚 참고 문헌 
+##  참고 문헌 
 - Xinyi Hou et al., *Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions*, arXiv:2503.23278  
 - Awid Vaziry et al., *Towards Multi-Agent Economies: Enhancing the A2A Protocol*, arXiv:2507.19550  
 
