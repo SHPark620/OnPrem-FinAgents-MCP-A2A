@@ -19,8 +19,21 @@ A2A 구조를 통해 에이전트 간 협업을 가능하게 하여
 
 ---
 
+## MCP
+![MCP](img/MCP.png)
+
+---
+
+##A2A
+![A2A](img/A2A.png)
+
+
+---
+
 ##  시스템 아키텍처
 본 시스템은 **MCP-A2A 하이브리드 파이프라인**으로 구성됩니다:
+
+![Overall Pipeline](img/OverallPipeline.png)
 
 1. **생성 에이전트 (Generation Agent)**  
    - 사용자 요청을 해석하고 필요한 데이터 및 분석 단계를 설계  
@@ -49,7 +62,7 @@ A2A 구조를 통해 에이전트 간 협업을 가능하게 하여
 
 ---
 
-## ⚙ 코드 구조
+##  코드 구조
 ```
 .
 ├── main.py               # 메인 파이프라인
@@ -67,7 +80,9 @@ A2A 구조를 통해 에이전트 간 협업을 가능하게 하여
 - **실험 결론**:  
   - MCP-A2A 기반 온프레미스 멀티에이전트 협업이 실현 가능함을 확인  
   - 보고서 품질 향상을 위해 맞춤형 LLM 적용 필요성 확인  
-
+![QueryInterface](img/QueryInterface.png)
+![ToolInvocation](img/ToolInvocation.png)
+![Report(HWP)View](img/Report(HWP)View.png)
 ---
 
 ##  향후 연구 방향
