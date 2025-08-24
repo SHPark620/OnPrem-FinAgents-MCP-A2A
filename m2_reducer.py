@@ -41,7 +41,7 @@ class EssentialPack:
     price: Optional[PriceSummary]
     news: List[NewsItem]
     financials: List[FinancialKPI]
-    pdf_summary: Optional[str] = None  # ✅ PDF 요약 추가
+    pdf_summary: Optional[str] = None  
 
     def to_markdown(self) -> str:
         lines = []
@@ -343,7 +343,7 @@ def reduce_all(
     pull_err(news_raw, "news")
     pull_err(financials_raw, "financials")
 
-    # ✅ pdf_summary는 EssentialPack의 별도 필드로 전달
+    #  pdf_summary는 EssentialPack의 별도 필드로 전달
     pack = EssentialPack(
         price=price_summary,
         news=news,
@@ -352,5 +352,6 @@ def reduce_all(
     )
 
     return pack, sig, errors
+
 
 
